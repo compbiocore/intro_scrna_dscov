@@ -93,7 +93,7 @@ RUN R -e "install.packages(c('patchwork'),repos = 'http://cran.rstudio.com/',ask
 RUN R -e "install.packages(c('tidyverse'),repos = 'http://cran.rstudio.com/',ask = FALSE)"
 RUN R -e "install.packages(c('ggrepel'),repos = 'http://cran.rstudio.com/',ask = FALSE)"
 RUN R -e "install.packages(c('sctransform'),repos = 'http://cran.rstudio.com/',ask = FALSE)"
-RUN R -e "install.packages(c('qs'),repos = 'http://cran.rstudio.com/',ask = FALSE)"
+RUN R -e "install.packages(c('qs2'),repos = 'http://cran.rstudio.com/',ask = FALSE)"
 RUN R -e "install.packages(c('knitr'),repos = 'http://cran.rstudio.com/',ask = FALSE)"
 RUN R -e "install.packages(c('kableExtra'),repos = 'http://cran.rstudio.com/',ask = FALSE)"
 RUN R -e "install.packages(c('stringr'),repos = 'http://cran.rstudio.com/',ask = FALSE)"
@@ -104,35 +104,36 @@ RUN R -e "install.packages(c('pdftools'),repos = 'http://cran.rstudio.com/',ask 
 RUN R -e "install.packages(c('openxlsx'),repos = 'http://cran.rstudio.com/',ask = FALSE)"
 RUN R -e "install.packages(c('tesseract'),repos = 'http://cran.rstudio.com/',ask = FALSE)"
 RUN R -e "install.packages(c('harmony'),repos = 'http://cran.rstudio.com/',ask = FALSE)"
+RUN R -e "install.packages(c('RColorBrewer'),repos = 'http://cran.rstudio.com/',ask = FALSE)"
+RUN R -e "install.packages(c('scales'),repos = 'http://cran.rstudio.com/',ask = FALSE)"
 
-RUN R -e "BiocManager::install(c(
-'AnnotationHub',
-'AUCell',
-'BiocGenerics',
-'biomaRt',
-'clusterProfiler',
-'clustree',
-'ComplexHeatmap',
-'DelayedArray',
-'DelayedMatrixStats',
-'doMC,
-'doRNG',
-'enrichplot',
-'glmGamPoi',
-'JASPAR2024',
-'limma',
-'lme4',
-'MAST',
-'mixtools',
-'multtest',
-'rhdf5'
-'S4Vectors',
-'SingleCellExperiment',
-'SummarizedExperiment',
-'batchelor',
-'HDF5Array',
-'terra',
-'ggrastr'))"
+RUN R -e "BiocManager::install('AnnotationHub')"
+RUN R -e "BiocManager::install('AUCell')"
+RUN R -e "BiocManager::install('BiocGenerics')"
+RUN R -e "BiocManager::install('biomaRt')"
+RUN R -e "BiocManager::install('clustree')"
+RUN R -e "BiocManager::install('clusterProfiler')"
+RUN R -e "BiocManager::install('ComplexHeatmap')"
+RUN R -e "BiocManager::install('DelayedArray')"
+RUN R -e "BiocManager::install('DelayedMatrixStats')"
+RUN R -e "BiocManager::install('doMC)"
+RUN R -e "BiocManager::install('doRNG')"
+RUN R -e "BiocManager::install('enrichplot')"
+RUN R -e "BiocManager::install('glmGamPoi')"
+RUN R -e "BiocManager::install('JASPAR2024')"
+RUN R -e "BiocManager::install('limma')"
+RUN R -e "BiocManager::install('lme4')"
+RUN R -e "BiocManager::install('MAST')"
+RUN R -e "BiocManager::install('mixtools')"
+RUN R -e "BiocManager::install('multtest')"
+RUN R -e "BiocManager::install('rhdf5'
+RUN R -e "BiocManager::install('S4Vectors')"
+RUN R -e "BiocManager::install('SingleCellExperiment')"
+RUN R -e "BiocManager::install('SummarizedExperiment')"
+RUN R -e "BiocManager::install('batchelor')"
+RUN R -e "BiocManager::install('HDF5Array')"
+RUN R -e "BiocManager::install('terra')"
+RUN R -e "BiocManager::install('ggrastr')"
 
 
 RUN R -e "BiocManager::install(c('DelayedArray'))"
@@ -168,4 +169,4 @@ RUN R -e "remotes::install_github('cellgeni/schard')"
 
 RUN R -e "SeuratData::InstallData('ifnb')"
 
-RUN ln -s /usr/lib/rstudio-server/bin/rsession /usr/local/bin/rsession
+RUN ln -s /usr/lib/rstudio-server/bin/rsession /usr/local/bin/rsession 
