@@ -49,7 +49,7 @@ RUN R -e "BiocManager::install('lme4')"
 RUN R -e "BiocManager::install('MAST')"
 RUN R -e "BiocManager::install('mixtools')"
 RUN R -e "BiocManager::install('multtest')"
-RUN R -e "BiocManager::install('rhdf5'
+RUN R -e "BiocManager::install('rhdf5')"
 RUN R -e "BiocManager::install('S4Vectors')"
 RUN R -e "BiocManager::install('SingleCellExperiment')"
 RUN R -e "BiocManager::install('SummarizedExperiment')"
