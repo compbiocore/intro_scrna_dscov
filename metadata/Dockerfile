@@ -1,2 +1,1 @@
-FROM ghcr.io/compbiocore/intro_scrna_dscov:sep_24_08-44-39_2025
-RUN R -e "SeuratData::InstallData('pbmc3k')"
+FROM ghcr.io/compbiocore/intro_scrna_dscov:sep_24_09-07-05_2025
