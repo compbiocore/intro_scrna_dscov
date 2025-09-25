@@ -576,7 +576,7 @@ LabelClusters(plot2, id = "ident", box= TRUE, size = 5, repel = T, fill = 'white
 
 ### Clustering resolution selection
 
-You can use the `clustree` package to get a sense of how the resolution to select will impact the clustering.
+You can use the `clustree` package to get a sense of how the resolution you select will impact the clustering.
 
 First, try running the clustering across a range of resolutions:
 
