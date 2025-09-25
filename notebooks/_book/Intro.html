@@ -697,7 +697,7 @@ IMMUNE_CTRL IMMUNE_STIM      pbmc3k
 <span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>end.time <span class="ot">&lt;-</span> <span class="fu">Sys.time</span>()</span>
 <span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a>end.time <span class="sc">-</span> start.time</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Time difference of 18.44825 secs</code></pre>
+<pre><code>Time difference of 18.33421 secs</code></pre>
 </div>
 </div>
 <p>Then run PCA</p>
@@ -836,7 +836,7 @@ Negative:  CST3, LYZ, S100A9, S100A8, NKG7, TYROBP, GSTP1, AIF1, GNLY, GZMB
 <span id="cb49-7"><a href="#cb49-7" aria-hidden="true" tabindex="-1"></a>end.time <span class="ot">&lt;-</span> <span class="fu">Sys.time</span>()</span>
 <span id="cb49-8"><a href="#cb49-8" aria-hidden="true" tabindex="-1"></a>end.time <span class="sc">-</span> start.time</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Time difference of 10.89347 secs</code></pre>
+<pre><code>Time difference of 10.76951 secs</code></pre>
 </div>
 </div>
 <div class="cell">
@@ -849,7 +849,7 @@ Negative:  CST3, LYZ, S100A9, S100A8, NKG7, TYROBP, GSTP1, AIF1, GNLY, GZMB
 <span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a>end.time <span class="ot">&lt;-</span> <span class="fu">Sys.time</span>()</span>
 <span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a>end.time <span class="sc">-</span> start.time</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Time difference of 8.365001 secs</code></pre>
+<pre><code>Time difference of 8.31411 secs</code></pre>
 </div>
 </div>
 <div class="cell">
@@ -866,7 +866,7 @@ This message is displayed once per session.</code></pre>
 <div class="sourceCode cell-code" id="cb55"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>end.time <span class="ot">&lt;-</span> <span class="fu">Sys.time</span>()</span>
 <span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>end.time <span class="sc">-</span> start.time</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Time difference of 1.163951 secs</code></pre>
+<pre><code>Time difference of 1.179254 secs</code></pre>
 </div>
 </div>
 <div class="cell">
@@ -879,7 +879,7 @@ This message is displayed once per session.</code></pre>
 <span id="cb57-7"><a href="#cb57-7" aria-hidden="true" tabindex="-1"></a>end.time <span class="ot">&lt;-</span> <span class="fu">Sys.time</span>()</span>
 <span id="cb57-8"><a href="#cb57-8" aria-hidden="true" tabindex="-1"></a>end.time <span class="sc">-</span> start.time</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Time difference of 10.25498 secs</code></pre>
+<pre><code>Time difference of 10.1773 secs</code></pre>
 </div>
 </div>
 </section>
@@ -985,16 +985,16 @@ To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to
 This message will be shown once per session</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>15:19:27 UMAP embedding parameters a = 0.9922 b = 1.112</code></pre>
+<pre><code>15:35:18 UMAP embedding parameters a = 0.9922 b = 1.112</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>15:19:27 Read 1456 rows and found 10 numeric columns</code></pre>
+<pre><code>15:35:18 Read 1456 rows and found 10 numeric columns</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>15:19:27 Using Annoy for neighbor search, n_neighbors = 30</code></pre>
+<pre><code>15:35:18 Using Annoy for neighbor search, n_neighbors = 30</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>15:19:27 Building Annoy index with metric = cosine, n_trees = 50</code></pre>
+<pre><code>15:35:18 Building Annoy index with metric = cosine, n_trees = 50</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>0%   10   20   30   40   50   60   70   80   90   100%</code></pre>
@@ -1004,86 +1004,86 @@ This message will be shown once per session</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>**************************************************|
-15:19:27 Writing NN index file to temp file /tmp/Rtmpy2NDOw/fileddaf02d25caed
-15:19:27 Searching Annoy index using 1 thread, search_k = 3000
-15:19:27 Annoy recall = 100%
-15:19:28 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
-15:19:30 Initializing from normalized Laplacian + noise (using RSpectra)
-15:19:30 Commencing optimization for 500 epochs, with 55744 positive edges
-15:19:30 Using rng type: pcg
-15:19:32 Optimization finished</code></pre>
+15:35:19 Writing NN index file to temp file /tmp/RtmpHSZuSf/file3245a2cc56b46
+15:35:19 Searching Annoy index using 1 thread, search_k = 3000
+15:35:19 Annoy recall = 100%
+15:35:20 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+15:35:21 Initializing from normalized Laplacian + noise (using RSpectra)
+15:35:21 Commencing optimization for 500 epochs, with 55744 positive edges
+15:35:21 Using rng type: pcg
+15:35:24 Optimization finished</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb89"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb89-1"><a href="#cb89-1" aria-hidden="true" tabindex="-1"></a>all_data_sub <span class="ot">&lt;-</span> <span class="fu">RunUMAP</span>(all_data_sub, <span class="at">reduction =</span> <span class="st">"integrated.cca"</span>, <span class="at">dims =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>, <span class="at">reduction.name =</span> <span class="st">"umap.cca"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>15:19:32 UMAP embedding parameters a = 0.9922 b = 1.112
-15:19:32 Read 1456 rows and found 10 numeric columns
-15:19:32 Using Annoy for neighbor search, n_neighbors = 30
-15:19:32 Building Annoy index with metric = cosine, n_trees = 50
+<pre><code>15:35:24 UMAP embedding parameters a = 0.9922 b = 1.112
+15:35:24 Read 1456 rows and found 10 numeric columns
+15:35:24 Using Annoy for neighbor search, n_neighbors = 30
+15:35:24 Building Annoy index with metric = cosine, n_trees = 50
 0%   10   20   30   40   50   60   70   80   90   100%
 [----|----|----|----|----|----|----|----|----|----|
 **************************************************|
-15:19:32 Writing NN index file to temp file /tmp/Rtmpy2NDOw/fileddaf068092f2c
-15:19:32 Searching Annoy index using 1 thread, search_k = 3000
-15:19:33 Annoy recall = 100%
-15:19:34 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
-15:19:35 Initializing from normalized Laplacian + noise (using RSpectra)
-15:19:35 Commencing optimization for 500 epochs, with 58396 positive edges
-15:19:35 Using rng type: pcg
-15:19:37 Optimization finished</code></pre>
+15:35:24 Writing NN index file to temp file /tmp/RtmpHSZuSf/file3245a227db102c
+15:35:24 Searching Annoy index using 1 thread, search_k = 3000
+15:35:24 Annoy recall = 100%
+15:35:25 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+15:35:27 Initializing from normalized Laplacian + noise (using RSpectra)
+15:35:27 Commencing optimization for 500 epochs, with 58396 positive edges
+15:35:27 Using rng type: pcg
+15:35:29 Optimization finished</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb91"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb91-1"><a href="#cb91-1" aria-hidden="true" tabindex="-1"></a>all_data_sub <span class="ot">&lt;-</span> <span class="fu">RunUMAP</span>(all_data_sub, <span class="at">reduction =</span> <span class="st">"integrated.jpca"</span>, <span class="at">dims =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>, <span class="at">reduction.name =</span> <span class="st">"umap.jpca"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>15:19:37 UMAP embedding parameters a = 0.9922 b = 1.112
-15:19:37 Read 1456 rows and found 10 numeric columns
-15:19:37 Using Annoy for neighbor search, n_neighbors = 30
-15:19:37 Building Annoy index with metric = cosine, n_trees = 50
+<pre><code>15:35:29 UMAP embedding parameters a = 0.9922 b = 1.112
+15:35:29 Read 1456 rows and found 10 numeric columns
+15:35:29 Using Annoy for neighbor search, n_neighbors = 30
+15:35:29 Building Annoy index with metric = cosine, n_trees = 50
 0%   10   20   30   40   50   60   70   80   90   100%
 [----|----|----|----|----|----|----|----|----|----|
 **************************************************|
-15:19:38 Writing NN index file to temp file /tmp/Rtmpy2NDOw/fileddaf094007c0
-15:19:38 Searching Annoy index using 1 thread, search_k = 3000
-15:19:38 Annoy recall = 100%
-15:19:39 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
-15:19:40 Initializing from normalized Laplacian + noise (using RSpectra)
-15:19:40 Commencing optimization for 500 epochs, with 58918 positive edges
-15:19:40 Using rng type: pcg
-15:19:43 Optimization finished</code></pre>
+15:35:29 Writing NN index file to temp file /tmp/RtmpHSZuSf/file3245a26f9ce0b3
+15:35:29 Searching Annoy index using 1 thread, search_k = 3000
+15:35:30 Annoy recall = 100%
+15:35:30 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+15:35:32 Initializing from normalized Laplacian + noise (using RSpectra)
+15:35:32 Commencing optimization for 500 epochs, with 58918 positive edges
+15:35:32 Using rng type: pcg
+15:35:34 Optimization finished</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb93"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb93-1"><a href="#cb93-1" aria-hidden="true" tabindex="-1"></a>all_data_sub <span class="ot">&lt;-</span> <span class="fu">RunUMAP</span>(all_data_sub, <span class="at">reduction =</span> <span class="st">"harmony"</span>, <span class="at">dims =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>, <span class="at">reduction.name =</span> <span class="st">"umap.harmony"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>15:19:43 UMAP embedding parameters a = 0.9922 b = 1.112
-15:19:43 Read 1456 rows and found 10 numeric columns
-15:19:43 Using Annoy for neighbor search, n_neighbors = 30
-15:19:43 Building Annoy index with metric = cosine, n_trees = 50
+<pre><code>15:35:34 UMAP embedding parameters a = 0.9922 b = 1.112
+15:35:34 Read 1456 rows and found 10 numeric columns
+15:35:34 Using Annoy for neighbor search, n_neighbors = 30
+15:35:34 Building Annoy index with metric = cosine, n_trees = 50
 0%   10   20   30   40   50   60   70   80   90   100%
 [----|----|----|----|----|----|----|----|----|----|
 **************************************************|
-15:19:43 Writing NN index file to temp file /tmp/Rtmpy2NDOw/fileddaf0f885449
-15:19:43 Searching Annoy index using 1 thread, search_k = 3000
-15:19:43 Annoy recall = 100%
-15:19:44 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
-15:19:46 Initializing from normalized Laplacian + noise (using RSpectra)
-15:19:46 Commencing optimization for 500 epochs, with 57540 positive edges
-15:19:46 Using rng type: pcg
-15:19:48 Optimization finished</code></pre>
+15:35:34 Writing NN index file to temp file /tmp/RtmpHSZuSf/file3245a2ac98827
+15:35:34 Searching Annoy index using 1 thread, search_k = 3000
+15:35:35 Annoy recall = 100%
+15:35:36 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+15:35:37 Initializing from normalized Laplacian + noise (using RSpectra)
+15:35:37 Commencing optimization for 500 epochs, with 57540 positive edges
+15:35:37 Using rng type: pcg
+15:35:39 Optimization finished</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb95"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb95-1"><a href="#cb95-1" aria-hidden="true" tabindex="-1"></a>all_data_sub <span class="ot">&lt;-</span> <span class="fu">RunUMAP</span>(all_data_sub, <span class="at">reduction =</span> <span class="st">"integrated.rpca"</span>, <span class="at">dims =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>, <span class="at">reduction.name =</span> <span class="st">"umap.rpca"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>15:19:48 UMAP embedding parameters a = 0.9922 b = 1.112
-15:19:48 Read 1456 rows and found 10 numeric columns
-15:19:48 Using Annoy for neighbor search, n_neighbors = 30
-15:19:48 Building Annoy index with metric = cosine, n_trees = 50
+<pre><code>15:35:39 UMAP embedding parameters a = 0.9922 b = 1.112
+15:35:39 Read 1456 rows and found 10 numeric columns
+15:35:39 Using Annoy for neighbor search, n_neighbors = 30
+15:35:39 Building Annoy index with metric = cosine, n_trees = 50
 0%   10   20   30   40   50   60   70   80   90   100%
 [----|----|----|----|----|----|----|----|----|----|
 **************************************************|
-15:19:48 Writing NN index file to temp file /tmp/Rtmpy2NDOw/fileddaf07a8804c9
-15:19:48 Searching Annoy index using 1 thread, search_k = 3000
-15:19:49 Annoy recall = 100%
-15:19:49 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
-15:19:51 Initializing from normalized Laplacian + noise (using RSpectra)
-15:19:51 Commencing optimization for 500 epochs, with 57330 positive edges
-15:19:51 Using rng type: pcg
-15:19:53 Optimization finished</code></pre>
+15:35:40 Writing NN index file to temp file /tmp/RtmpHSZuSf/file3245a27ad4c214
+15:35:40 Searching Annoy index using 1 thread, search_k = 3000
+15:35:40 Annoy recall = 100%
+15:35:41 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+15:35:42 Initializing from normalized Laplacian + noise (using RSpectra)
+15:35:42 Commencing optimization for 500 epochs, with 57330 positive edges
+15:35:42 Using rng type: pcg
+15:35:45 Optimization finished</code></pre>
 </div>
 </div>
 <div class="cell">
@@ -1309,20 +1309,29 @@ RSAD2 6.594093e-161   56.68649 0.710 0.053 9.860147e-157</code></pre>
 <div class="sourceCode cell-code" id="cb124"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb124-1"><a href="#cb124-1" aria-hidden="true" tabindex="-1"></a>top_cluster_markers <span class="ot">&lt;-</span> </span>
 <span id="cb124-2"><a href="#cb124-2" aria-hidden="true" tabindex="-1"></a>  rpca_markers <span class="sc">%&gt;%</span> </span>
 <span id="cb124-3"><a href="#cb124-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(cluster) <span class="sc">%&gt;%</span></span>
-<span id="cb124-4"><a href="#cb124-4" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(p_val_adj <span class="sc">&lt;=</span> <span class="fl">1e-100</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb124-4"><a href="#cb124-4" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(p_val_adj <span class="sc">&lt;=</span> <span class="fl">0.05</span>) <span class="sc">%&gt;%</span></span>
 <span id="cb124-5"><a href="#cb124-5" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(avg_log2FC <span class="sc">&gt;</span> <span class="dv">1</span>) <span class="sc">%&gt;%</span> </span>
 <span id="cb124-6"><a href="#cb124-6" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">filter</span>(pct<span class="fl">.1</span> <span class="sc">&gt;</span> .<span class="dv">9</span>) <span class="sc">%&gt;%</span></span>
 <span id="cb124-7"><a href="#cb124-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">slice_max</span>(<span class="at">n =</span> <span class="dv">2</span>, <span class="at">order_by =</span> <span class="fu">abs</span>(avg_log2FC))</span>
 <span id="cb124-8"><a href="#cb124-8" aria-hidden="true" tabindex="-1"></a>top_cluster_markers</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 4 × 7
-# Groups:   cluster [3]
-      p_val avg_log2FC pct.1 pct.2 p_val_adj cluster gene  
-      &lt;dbl&gt;      &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;     &lt;dbl&gt; &lt;fct&gt;   &lt;chr&gt; 
-1 2.03e-162      335.  1     0.921 3.03e-158 0       FTL   
-2 3.85e-140      108.  0.954 0.322 5.76e-136 0       NPC2  
-3 3.95e-172       62.4 0.946 0.086 5.90e-168 3       NKG7  
-4 7.60e-116       24.7 0.966 0.156 1.14e-111 5       FCGR3A</code></pre>
+<pre><code># A tibble: 13 × 7
+# Groups:   cluster [7]
+       p_val avg_log2FC pct.1 pct.2 p_val_adj cluster gene   
+       &lt;dbl&gt;      &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;     &lt;dbl&gt; &lt;fct&gt;   &lt;chr&gt;  
+ 1 2.03e-162     335.   1     0.921 3.03e-158 0       FTL    
+ 2 3.85e-140     108.   0.954 0.322 5.76e-136 0       NPC2   
+ 3 4.47e- 40      51.7  0.983 0.859 6.69e- 36 1       RPS5   
+ 4 1.09e- 76      44.9  1     0.97  1.62e- 72 1       RPL3   
+ 5 2.83e-  6      57.8  0.988 0.982 4.23e-  2 2       TPT1   
+ 6 6.89e- 17      27.9  0.994 0.926 1.03e- 12 2       PTMA   
+ 7 3.95e-172      62.4  0.946 0.086 5.90e-168 3       NKG7   
+ 8 4.74e- 17      52.9  1     0.985 7.08e- 13 3       HLA-A  
+ 9 7.01e- 47       1.09 0.917 0.421 1.05e- 42 4       GIMAP7 
+10 5.59e- 15     149.   1     1     8.36e- 11 5       MALAT1 
+11 3.89e- 10      49.7  1     0.991 5.82e-  6 5       RPS19  
+12 1.13e- 22     234.   1     0.566 1.69e- 18 7       HLA-DRA
+13 2.89e- 21     225.   1     0.745 4.32e- 17 7       CD74   </code></pre>
 </div>
 </div>
 <p>Make a <code>FeaturePlot</code> to look at the expression of specific genes. It will plot the <code>data</code> slot from the default assay. We can switch the default assay to SCT first and specify that we want to use the <code>data</code> slot (log1p(counts)):</p>
