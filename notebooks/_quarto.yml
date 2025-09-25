@@ -3,7 +3,7 @@ project:
 
 book:
   title: "An Introduction to Single Cell RNAseq with Seurat"
-  author: "Norah Jones"
+  author: "Joselynn Wallace"
   date: "9/25/2025"
   chapters:
     - index.qmd
