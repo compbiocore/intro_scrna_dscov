@@ -9,7 +9,7 @@ Fill in the fields as follows:
 -   `Number of hours`: 2
 -   `Num Cores`: 1
 -   `Memory`: 100
--   `Singularity Container Path` : `/oscar/data/shared/databases/workshops/dscov/intro_scrna_dscov/metadata/intro_scrna_dscov.sif
+-   `Singularity Container Path` : /oscar/data/shared/databases/workshops/dscov/intro_scrna_dscov/metadata/intro_scrna_dscov.sif
 -   `Path for rsession executable`: (leave blank)
 -   `Package install Path`: (leave blank)
 -   `R Module`: (leave blank)
