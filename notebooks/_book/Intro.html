@@ -697,7 +697,7 @@ IMMUNE_CTRL IMMUNE_STIM      pbmc3k
 <span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>end.time <span class="ot">&lt;-</span> <span class="fu">Sys.time</span>()</span>
 <span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a>end.time <span class="sc">-</span> start.time</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Time difference of 18.52019 secs</code></pre>
+<pre><code>Time difference of 18.5244 secs</code></pre>
 </div>
 </div>
 <p>Then run PCA</p>
@@ -836,7 +836,7 @@ Negative:  CST3, LYZ, S100A9, S100A8, NKG7, TYROBP, GSTP1, AIF1, GNLY, GZMB
 <span id="cb49-7"><a href="#cb49-7" aria-hidden="true" tabindex="-1"></a>end.time <span class="ot">&lt;-</span> <span class="fu">Sys.time</span>()</span>
 <span id="cb49-8"><a href="#cb49-8" aria-hidden="true" tabindex="-1"></a>end.time <span class="sc">-</span> start.time</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Time difference of 10.84548 secs</code></pre>
+<pre><code>Time difference of 10.95686 secs</code></pre>
 </div>
 </div>
 <div class="cell">
@@ -849,7 +849,7 @@ Negative:  CST3, LYZ, S100A9, S100A8, NKG7, TYROBP, GSTP1, AIF1, GNLY, GZMB
 <span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a>end.time <span class="ot">&lt;-</span> <span class="fu">Sys.time</span>()</span>
 <span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a>end.time <span class="sc">-</span> start.time</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Time difference of 8.356378 secs</code></pre>
+<pre><code>Time difference of 8.441131 secs</code></pre>
 </div>
 </div>
 <div class="cell">
@@ -866,7 +866,7 @@ This message is displayed once per session.</code></pre>
 <div class="sourceCode cell-code" id="cb55"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>end.time <span class="ot">&lt;-</span> <span class="fu">Sys.time</span>()</span>
 <span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>end.time <span class="sc">-</span> start.time</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Time difference of 1.154775 secs</code></pre>
+<pre><code>Time difference of 1.165116 secs</code></pre>
 </div>
 </div>
 <div class="cell">
@@ -879,7 +879,7 @@ This message is displayed once per session.</code></pre>
 <span id="cb57-7"><a href="#cb57-7" aria-hidden="true" tabindex="-1"></a>end.time <span class="ot">&lt;-</span> <span class="fu">Sys.time</span>()</span>
 <span id="cb57-8"><a href="#cb57-8" aria-hidden="true" tabindex="-1"></a>end.time <span class="sc">-</span> start.time</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Time difference of 10.24933 secs</code></pre>
+<pre><code>Time difference of 10.34335 secs</code></pre>
 </div>
 </div>
 </section>
@@ -985,16 +985,16 @@ To use Python UMAP via reticulate, set umap.method to 'umap-learn' and metric to
 This message will be shown once per session</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>16:34:53 UMAP embedding parameters a = 0.9922 b = 1.112</code></pre>
+<pre><code>16:50:27 UMAP embedding parameters a = 0.9922 b = 1.112</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>16:34:53 Read 1456 rows and found 10 numeric columns</code></pre>
+<pre><code>16:50:27 Read 1456 rows and found 10 numeric columns</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>16:34:53 Using Annoy for neighbor search, n_neighbors = 30</code></pre>
+<pre><code>16:50:27 Using Annoy for neighbor search, n_neighbors = 30</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
-<pre><code>16:34:53 Building Annoy index with metric = cosine, n_trees = 50</code></pre>
+<pre><code>16:50:27 Building Annoy index with metric = cosine, n_trees = 50</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>0%   10   20   30   40   50   60   70   80   90   100%</code></pre>
@@ -1004,86 +1004,86 @@ This message will be shown once per session</code></pre>
 </div>
 <div class="cell-output cell-output-stderr">
 <pre><code>**************************************************|
-16:34:53 Writing NN index file to temp file /tmp/Rtmpfb2bOi/file36d75e695dd755
-16:34:53 Searching Annoy index using 1 thread, search_k = 3000
-16:34:54 Annoy recall = 100%
-16:34:54 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
-16:34:56 Initializing from normalized Laplacian + noise (using RSpectra)
-16:34:56 Commencing optimization for 500 epochs, with 55744 positive edges
-16:34:56 Using rng type: pcg
-16:34:58 Optimization finished</code></pre>
+16:50:27 Writing NN index file to temp file /tmp/RtmpNX1nkc/file2438fe72b49735
+16:50:27 Searching Annoy index using 1 thread, search_k = 3000
+16:50:28 Annoy recall = 100%
+16:50:29 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+16:50:30 Initializing from normalized Laplacian + noise (using RSpectra)
+16:50:30 Commencing optimization for 500 epochs, with 55744 positive edges
+16:50:30 Using rng type: pcg
+16:50:33 Optimization finished</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb89"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb89-1"><a href="#cb89-1" aria-hidden="true" tabindex="-1"></a>all_data_sub <span class="ot">&lt;-</span> <span class="fu">RunUMAP</span>(all_data_sub, <span class="at">reduction =</span> <span class="st">"integrated.cca"</span>, <span class="at">dims =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>, <span class="at">reduction.name =</span> <span class="st">"umap.cca"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>16:34:58 UMAP embedding parameters a = 0.9922 b = 1.112
-16:34:58 Read 1456 rows and found 10 numeric columns
-16:34:58 Using Annoy for neighbor search, n_neighbors = 30
-16:34:58 Building Annoy index with metric = cosine, n_trees = 50
+<pre><code>16:50:33 UMAP embedding parameters a = 0.9922 b = 1.112
+16:50:33 Read 1456 rows and found 10 numeric columns
+16:50:33 Using Annoy for neighbor search, n_neighbors = 30
+16:50:33 Building Annoy index with metric = cosine, n_trees = 50
 0%   10   20   30   40   50   60   70   80   90   100%
 [----|----|----|----|----|----|----|----|----|----|
 **************************************************|
-16:34:59 Writing NN index file to temp file /tmp/Rtmpfb2bOi/file36d75e13ff22bc
-16:34:59 Searching Annoy index using 1 thread, search_k = 3000
-16:34:59 Annoy recall = 100%
-16:35:00 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
-16:35:01 Initializing from normalized Laplacian + noise (using RSpectra)
-16:35:01 Commencing optimization for 500 epochs, with 58396 positive edges
-16:35:01 Using rng type: pcg
-16:35:04 Optimization finished</code></pre>
+16:50:33 Writing NN index file to temp file /tmp/RtmpNX1nkc/file2438fe21248ad2
+16:50:33 Searching Annoy index using 1 thread, search_k = 3000
+16:50:33 Annoy recall = 100%
+16:50:34 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+16:50:36 Initializing from normalized Laplacian + noise (using RSpectra)
+16:50:36 Commencing optimization for 500 epochs, with 58396 positive edges
+16:50:36 Using rng type: pcg
+16:50:38 Optimization finished</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb91"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb91-1"><a href="#cb91-1" aria-hidden="true" tabindex="-1"></a>all_data_sub <span class="ot">&lt;-</span> <span class="fu">RunUMAP</span>(all_data_sub, <span class="at">reduction =</span> <span class="st">"integrated.jpca"</span>, <span class="at">dims =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>, <span class="at">reduction.name =</span> <span class="st">"umap.jpca"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>16:35:04 UMAP embedding parameters a = 0.9922 b = 1.112
-16:35:04 Read 1456 rows and found 10 numeric columns
-16:35:04 Using Annoy for neighbor search, n_neighbors = 30
-16:35:04 Building Annoy index with metric = cosine, n_trees = 50
+<pre><code>16:50:38 UMAP embedding parameters a = 0.9922 b = 1.112
+16:50:38 Read 1456 rows and found 10 numeric columns
+16:50:38 Using Annoy for neighbor search, n_neighbors = 30
+16:50:38 Building Annoy index with metric = cosine, n_trees = 50
 0%   10   20   30   40   50   60   70   80   90   100%
 [----|----|----|----|----|----|----|----|----|----|
 **************************************************|
-16:35:04 Writing NN index file to temp file /tmp/Rtmpfb2bOi/file36d75e666ffbbd
-16:35:04 Searching Annoy index using 1 thread, search_k = 3000
-16:35:04 Annoy recall = 100%
-16:35:05 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
-16:35:07 Initializing from normalized Laplacian + noise (using RSpectra)
-16:35:07 Commencing optimization for 500 epochs, with 58918 positive edges
-16:35:07 Using rng type: pcg
-16:35:09 Optimization finished</code></pre>
+16:50:38 Writing NN index file to temp file /tmp/RtmpNX1nkc/file2438fe7ecb2b75
+16:50:38 Searching Annoy index using 1 thread, search_k = 3000
+16:50:39 Annoy recall = 100%
+16:50:39 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+16:50:41 Initializing from normalized Laplacian + noise (using RSpectra)
+16:50:41 Commencing optimization for 500 epochs, with 58918 positive edges
+16:50:41 Using rng type: pcg
+16:50:43 Optimization finished</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb93"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb93-1"><a href="#cb93-1" aria-hidden="true" tabindex="-1"></a>all_data_sub <span class="ot">&lt;-</span> <span class="fu">RunUMAP</span>(all_data_sub, <span class="at">reduction =</span> <span class="st">"harmony"</span>, <span class="at">dims =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>, <span class="at">reduction.name =</span> <span class="st">"umap.harmony"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>16:35:09 UMAP embedding parameters a = 0.9922 b = 1.112
-16:35:09 Read 1456 rows and found 10 numeric columns
-16:35:09 Using Annoy for neighbor search, n_neighbors = 30
-16:35:09 Building Annoy index with metric = cosine, n_trees = 50
+<pre><code>16:50:43 UMAP embedding parameters a = 0.9922 b = 1.112
+16:50:43 Read 1456 rows and found 10 numeric columns
+16:50:43 Using Annoy for neighbor search, n_neighbors = 30
+16:50:43 Building Annoy index with metric = cosine, n_trees = 50
 0%   10   20   30   40   50   60   70   80   90   100%
 [----|----|----|----|----|----|----|----|----|----|
 **************************************************|
-16:35:09 Writing NN index file to temp file /tmp/Rtmpfb2bOi/file36d75e4bb852e3
-16:35:09 Searching Annoy index using 1 thread, search_k = 3000
-16:35:10 Annoy recall = 100%
-16:35:10 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
-16:35:12 Initializing from normalized Laplacian + noise (using RSpectra)
-16:35:12 Commencing optimization for 500 epochs, with 57540 positive edges
-16:35:12 Using rng type: pcg
-16:35:14 Optimization finished</code></pre>
+16:50:43 Writing NN index file to temp file /tmp/RtmpNX1nkc/file2438fe28038e4c
+16:50:43 Searching Annoy index using 1 thread, search_k = 3000
+16:50:44 Annoy recall = 100%
+16:50:45 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+16:50:46 Initializing from normalized Laplacian + noise (using RSpectra)
+16:50:46 Commencing optimization for 500 epochs, with 57540 positive edges
+16:50:46 Using rng type: pcg
+16:50:49 Optimization finished</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb95"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb95-1"><a href="#cb95-1" aria-hidden="true" tabindex="-1"></a>all_data_sub <span class="ot">&lt;-</span> <span class="fu">RunUMAP</span>(all_data_sub, <span class="at">reduction =</span> <span class="st">"integrated.rpca"</span>, <span class="at">dims =</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>, <span class="at">reduction.name =</span> <span class="st">"umap.rpca"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>16:35:14 UMAP embedding parameters a = 0.9922 b = 1.112
-16:35:14 Read 1456 rows and found 10 numeric columns
-16:35:14 Using Annoy for neighbor search, n_neighbors = 30
-16:35:14 Building Annoy index with metric = cosine, n_trees = 50
+<pre><code>16:50:49 UMAP embedding parameters a = 0.9922 b = 1.112
+16:50:49 Read 1456 rows and found 10 numeric columns
+16:50:49 Using Annoy for neighbor search, n_neighbors = 30
+16:50:49 Building Annoy index with metric = cosine, n_trees = 50
 0%   10   20   30   40   50   60   70   80   90   100%
 [----|----|----|----|----|----|----|----|----|----|
 **************************************************|
-16:35:14 Writing NN index file to temp file /tmp/Rtmpfb2bOi/file36d75e43ce12e1
-16:35:14 Searching Annoy index using 1 thread, search_k = 3000
-16:35:15 Annoy recall = 100%
-16:35:16 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
-16:35:17 Initializing from normalized Laplacian + noise (using RSpectra)
-16:35:17 Commencing optimization for 500 epochs, with 57330 positive edges
-16:35:17 Using rng type: pcg
-16:35:19 Optimization finished</code></pre>
+16:50:49 Writing NN index file to temp file /tmp/RtmpNX1nkc/file2438fe436270
+16:50:49 Searching Annoy index using 1 thread, search_k = 3000
+16:50:49 Annoy recall = 100%
+16:50:50 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+16:50:51 Initializing from normalized Laplacian + noise (using RSpectra)
+16:50:52 Commencing optimization for 500 epochs, with 57330 positive edges
+16:50:52 Using rng type: pcg
+16:50:54 Optimization finished</code></pre>
 </div>
 </div>
 <div class="cell">
@@ -1341,7 +1341,7 @@ RSAD2 6.594093e-161   56.68649 0.710 0.053 9.860147e-157</code></pre>
 </div>
 <p>We can also make a heatmap of the cluster markers. Seurat heatmaps use the <code>scale.data</code> slot by default.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb126"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb126-1"><a href="#cb126-1" aria-hidden="true" tabindex="-1"></a><span class="fu">DoHeatmap</span>(<span class="fu">subset</span>(all_data_sub, <span class="at">downsample =</span> <span class="dv">50</span>), <span class="at">features =</span> top_cluster_markers<span class="sc">$</span>gene)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb126"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb126-1"><a href="#cb126-1" aria-hidden="true" tabindex="-1"></a><span class="fu">DoHeatmap</span>(<span class="fu">subset</span>(all_data_sub, <span class="at">downsample =</span> <span class="dv">50</span>), <span class="at">features =</span> top_cluster_markers<span class="sc">$</span>gene) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -1401,7 +1401,8 @@ Adding another scale for fill, which will replace the existing scale.</code></pr
 </div>
 <p>Another helpful visualization from Seurat is <code>DotPlot</code>. The size of each dot indicates the percentage of cells expressing the feature and the color is the average expression level. It uses the scale.data slot by default.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb134"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb134-1"><a href="#cb134-1" aria-hidden="true" tabindex="-1"></a><span class="fu">DotPlot</span>(all_data_sub, <span class="at">features =</span> top_cluster_markers<span class="sc">$</span>gene) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb134"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb134-1"><a href="#cb134-1" aria-hidden="true" tabindex="-1"></a><span class="fu">DotPlot</span>(all_data_sub, <span class="at">features =</span> top_cluster_markers<span class="sc">$</span>gene) <span class="sc">+</span> </span>
+<span id="cb134-2"><a href="#cb134-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle=</span><span class="dv">90</span>, <span class="at">vjust=</span>.<span class="dv">5</span>, <span class="at">hjust=</span><span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure class="figure">
@@ -1413,7 +1414,8 @@ Adding another scale for fill, which will replace the existing scale.</code></pr
 <p>We can use more custom colors:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb135"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb135-1"><a href="#cb135-1" aria-hidden="true" tabindex="-1"></a><span class="fu">DotPlot</span>(all_data_sub, <span class="at">features =</span> top_cluster_markers<span class="sc">$</span>gene) <span class="sc">&amp;</span> </span>
-<span id="cb135-2"><a href="#cb135-2" aria-hidden="true" tabindex="-1"></a>    viridis<span class="sc">::</span><span class="fu">scale_color_viridis</span>(<span class="at">option =</span> <span class="st">"magma"</span>, <span class="at">direction =</span> <span class="sc">-</span><span class="dv">1</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb135-2"><a href="#cb135-2" aria-hidden="true" tabindex="-1"></a>    viridis<span class="sc">::</span><span class="fu">scale_color_viridis</span>(<span class="at">option =</span> <span class="st">"magma"</span>, <span class="at">direction =</span> <span class="sc">-</span><span class="dv">1</span>) <span class="sc">&amp;</span></span>
+<span id="cb135-3"><a href="#cb135-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> <span class="fu">element_text</span>(<span class="at">angle=</span><span class="dv">90</span>, <span class="at">vjust=</span>.<span class="dv">5</span>, <span class="at">hjust=</span><span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Scale for colour is already present.
 Adding another scale for colour, which will replace the existing scale.</code></pre>

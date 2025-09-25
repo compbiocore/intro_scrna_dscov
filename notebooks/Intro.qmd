@@ -665,7 +665,7 @@ FeaturePlot(all_data_sub, features = c("CCL3"), reduction = 'umap.rpca', order =
 We can also make a heatmap of the cluster markers. Seurat heatmaps use the `scale.data` slot by default.
 
 ```{r}
-DoHeatmap(subset(all_data_sub, downsample = 50), features = top_cluster_markers$gene)
+DoHeatmap(subset(all_data_sub, downsample = 50), features = top_cluster_markers$gene) 
 ```
 
 We can customize Seurat figures the same way you would customize other ggplot2 figures, like using different colors:
@@ -689,14 +689,16 @@ DoHeatmap(subset(all_data_sub, downsample = 50), features = top_cluster_markers$
 Another helpful visualization from Seurat is `DotPlot`. The size of each dot indicates the percentage of cells expressing the feature and the color is the average expression level. It uses the scale.data slot by default.
 
 ```{r}
-DotPlot(all_data_sub, features = top_cluster_markers$gene) 
+DotPlot(all_data_sub, features = top_cluster_markers$gene) + 
+  theme(axis.text.x = element_text(angle=90, vjust=.5, hjust=1))
 ```
 
 We can use more custom colors:
 
 ```{r}
 DotPlot(all_data_sub, features = top_cluster_markers$gene) & 
-    viridis::scale_color_viridis(option = "magma", direction = -1) 
+    viridis::scale_color_viridis(option = "magma", direction = -1) &
+  theme(axis.text.x = element_text(angle=90, vjust=.5, hjust=1))
 ```
 
 ## Conclusion
