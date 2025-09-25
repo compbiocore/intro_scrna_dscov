@@ -650,7 +650,7 @@ Look at the marker genes with the biggest fold change per cluster
 top_cluster_markers <- 
   rpca_markers %>% 
   group_by(cluster) %>%
-  dplyr::filter(p_val_adj <= 1e-100) %>%
+  dplyr::filter(p_val_adj <= 0.05) %>%
   dplyr::filter(avg_log2FC > 1) %>% 
   dplyr::filter(pct.1 > .9) %>%
   slice_max(n = 2, order_by = abs(avg_log2FC))
