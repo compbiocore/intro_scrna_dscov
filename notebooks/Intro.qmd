@@ -571,9 +571,6 @@ LabelClusters(plot1, id = "ident", box= TRUE, size = 5, repel = T, fill = 'white
 Idents(all_data_sub) <- 'rpca_clusters'
 plot2 <- DimPlot(all_data_sub) 
 LabelClusters(plot2, id = "ident", box= TRUE, size = 5, repel = T, fill = 'white')
-
-plot1 + plot2
-
 ```
 
 
