@@ -11,3 +11,11 @@ editor: visual
 execute:
   cache: true
 ---
+
+Please fill out this form so we know who is attending DSCOV
+
+Link: [https://bit.ly/4nghyWw](#0)
+
+QR code:\![QR code](image/DSCoVAttendanceForm.png)
+
+Thank you!
