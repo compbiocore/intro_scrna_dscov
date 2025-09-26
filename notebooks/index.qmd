@@ -12,8 +12,3 @@ execute:
   cache: true
 ---
 
-Please fill out this form so we know who is attending DSCOV, using the link or the QR code.
-
-![](image/DSCoVAttendanceForm.png){width=50%}
-[https://bit.ly/4nghyWw](https://docs.google.com/forms/d/e/1FAIpQLSeyXnwcBBgzT8C2o9p4DkupVaQDLNIx7lIvyoyOUgW_YIdsHA/viewform?pli=1)
-Thank you!

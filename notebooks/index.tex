@@ -238,13 +238,6 @@
 
 \chapter{Introduction}\label{introduction}
 
-Please fill out this form so we know who is attending DSCOV, using the
-link or the QR code.
-
-\includegraphics[width=0.5\linewidth,height=\textheight,keepaspectratio]{image/DSCoVAttendanceForm.png}
-\href{https://docs.google.com/forms/d/e/1FAIpQLSeyXnwcBBgzT8C2o9p4DkupVaQDLNIx7lIvyoyOUgW_YIdsHA/viewform?pli=1}{https://bit.ly/4nghyWw}
-Thank you!
-
 \bookmarksetup{startatroot}
 
 \chapter{To use this notebook}\label{to-use-this-notebook}
@@ -322,7 +315,7 @@ integration methods: https://deepwiki.com/satijalab/seurat
 
 \section{Seurat objects overview}\label{seurat-objects-overview}
 
-\begin{tcolorbox}[enhanced jigsaw, breakable, leftrule=.75mm, coltitle=black, toptitle=1mm, arc=.35mm, bottomtitle=1mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, rightrule=.15mm, colbacktitle=quarto-callout-important-color!10!white, opacitybacktitle=0.6, left=2mm, toprule=.15mm, colframe=quarto-callout-important-color-frame, opacityback=0, colback=white, titlerule=0mm, bottomrule=.15mm]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-important-color-frame, breakable, bottomrule=.15mm, left=2mm, coltitle=black, toprule=.15mm, colbacktitle=quarto-callout-important-color!10!white, toptitle=1mm, opacityback=0, opacitybacktitle=0.6, colback=white, bottomtitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, arc=.35mm, rightrule=.15mm, leftrule=.75mm]
 
 In November of 2023, Seurat made a major upgrade to Seurat v5
 (https://github.com/satijalab/seurat/releases), which included many new
@@ -903,7 +896,7 @@ making our limits 0 and \textgreater10).
   data, your plots will probably look a bit different.
 \end{itemize}
 
-\begin{tcolorbox}[enhanced jigsaw, breakable, leftrule=.75mm, coltitle=black, toptitle=1mm, arc=.35mm, bottomtitle=1mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, rightrule=.15mm, colbacktitle=quarto-callout-important-color!10!white, opacitybacktitle=0.6, left=2mm, toprule=.15mm, colframe=quarto-callout-important-color-frame, opacityback=0, colback=white, titlerule=0mm, bottomrule=.15mm]
+\begin{tcolorbox}[enhanced jigsaw, colframe=quarto-callout-important-color-frame, breakable, bottomrule=.15mm, left=2mm, coltitle=black, toprule=.15mm, colbacktitle=quarto-callout-important-color!10!white, toptitle=1mm, opacityback=0, opacitybacktitle=0.6, colback=white, bottomtitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, arc=.35mm, rightrule=.15mm, leftrule=.75mm]
 
 We don't get into it in this workshop, but an additional QC
 consideration is ambient RNA. Look at this document from 10x for more
@@ -1093,7 +1086,7 @@ Warning: Assay RNA changing from Assay to Assay5
 \end{Shaded}
 
 \begin{verbatim}
-Time difference of 18.22702 secs
+Time difference of 19.19277 secs
 \end{verbatim}
 
 Then run PCA
@@ -1354,7 +1347,7 @@ integration in previous versions of Seurat),
 \end{Shaded}
 
 \begin{verbatim}
-Time difference of 10.70925 secs
+Time difference of 11.34417 secs
 \end{verbatim}
 
 \begin{Shaded}
@@ -1371,7 +1364,7 @@ Time difference of 10.70925 secs
 \end{Shaded}
 
 \begin{verbatim}
-Time difference of 8.246771 secs
+Time difference of 8.646233 secs
 \end{verbatim}
 
 \begin{Shaded}
@@ -1398,7 +1391,7 @@ This message is displayed once per session.
 \end{Shaded}
 
 \begin{verbatim}
-Time difference of 1.194897 secs
+Time difference of 1.226969 secs
 \end{verbatim}
 
 \begin{Shaded}
@@ -1415,7 +1408,7 @@ Time difference of 1.194897 secs
 \end{Shaded}
 
 \begin{verbatim}
-Time difference of 10.06061 secs
+Time difference of 10.79273 secs
 \end{verbatim}
 
 \section{Clustering}\label{clustering}
@@ -1601,19 +1594,19 @@ This message will be shown once per session
 \end{verbatim}
 
 \begin{verbatim}
-08:52:10 UMAP embedding parameters a = 0.9922 b = 1.112
+13:32:25 UMAP embedding parameters a = 0.9922 b = 1.112
 \end{verbatim}
 
 \begin{verbatim}
-08:52:10 Read 1456 rows and found 10 numeric columns
+13:32:25 Read 1456 rows and found 10 numeric columns
 \end{verbatim}
 
 \begin{verbatim}
-08:52:10 Using Annoy for neighbor search, n_neighbors = 30
+13:32:25 Using Annoy for neighbor search, n_neighbors = 30
 \end{verbatim}
 
 \begin{verbatim}
-08:52:10 Building Annoy index with metric = cosine, n_trees = 50
+13:32:25 Building Annoy index with metric = cosine, n_trees = 50
 \end{verbatim}
 
 \begin{verbatim}
@@ -1626,14 +1619,14 @@ This message will be shown once per session
 
 \begin{verbatim}
 **************************************************|
-08:52:10 Writing NN index file to temp file /tmp/Rtmp9sSmqR/file3d29794cbe550
-08:52:10 Searching Annoy index using 1 thread, search_k = 3000
-08:52:10 Annoy recall = 100%
-08:52:11 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
-08:52:13 Initializing from normalized Laplacian + noise (using RSpectra)
-08:52:13 Commencing optimization for 500 epochs, with 55744 positive edges
-08:52:13 Using rng type: pcg
-08:52:15 Optimization finished
+13:32:25 Writing NN index file to temp file /tmp/Rtmppt53xs/file338b56165f4067
+13:32:25 Searching Annoy index using 1 thread, search_k = 3000
+13:32:26 Annoy recall = 100%
+13:32:27 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+13:32:28 Initializing from normalized Laplacian + noise (using RSpectra)
+13:32:29 Commencing optimization for 500 epochs, with 55744 positive edges
+13:32:29 Using rng type: pcg
+13:32:31 Optimization finished
 \end{verbatim}
 
 \begin{Shaded}
@@ -1643,21 +1636,21 @@ This message will be shown once per session
 \end{Shaded}
 
 \begin{verbatim}
-08:52:15 UMAP embedding parameters a = 0.9922 b = 1.112
-08:52:15 Read 1456 rows and found 10 numeric columns
-08:52:15 Using Annoy for neighbor search, n_neighbors = 30
-08:52:15 Building Annoy index with metric = cosine, n_trees = 50
+13:32:31 UMAP embedding parameters a = 0.9922 b = 1.112
+13:32:31 Read 1456 rows and found 10 numeric columns
+13:32:31 Using Annoy for neighbor search, n_neighbors = 30
+13:32:31 Building Annoy index with metric = cosine, n_trees = 50
 0%   10   20   30   40   50   60   70   80   90   100%
 [----|----|----|----|----|----|----|----|----|----|
 **************************************************|
-08:52:15 Writing NN index file to temp file /tmp/Rtmp9sSmqR/file3d2979713f6341
-08:52:15 Searching Annoy index using 1 thread, search_k = 3000
-08:52:16 Annoy recall = 100%
-08:52:16 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
-08:52:18 Initializing from normalized Laplacian + noise (using RSpectra)
-08:52:18 Commencing optimization for 500 epochs, with 58396 positive edges
-08:52:18 Using rng type: pcg
-08:52:20 Optimization finished
+13:32:31 Writing NN index file to temp file /tmp/Rtmppt53xs/file338b56782f23d4
+13:32:31 Searching Annoy index using 1 thread, search_k = 3000
+13:32:32 Annoy recall = 100%
+13:32:32 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+13:32:34 Initializing from normalized Laplacian + noise (using RSpectra)
+13:32:34 Commencing optimization for 500 epochs, with 58396 positive edges
+13:32:34 Using rng type: pcg
+13:32:36 Optimization finished
 \end{verbatim}
 
 \begin{Shaded}
@@ -1667,21 +1660,21 @@ This message will be shown once per session
 \end{Shaded}
 
 \begin{verbatim}
-08:52:20 UMAP embedding parameters a = 0.9922 b = 1.112
-08:52:20 Read 1456 rows and found 10 numeric columns
-08:52:20 Using Annoy for neighbor search, n_neighbors = 30
-08:52:20 Building Annoy index with metric = cosine, n_trees = 50
+13:32:37 UMAP embedding parameters a = 0.9922 b = 1.112
+13:32:37 Read 1456 rows and found 10 numeric columns
+13:32:37 Using Annoy for neighbor search, n_neighbors = 30
+13:32:37 Building Annoy index with metric = cosine, n_trees = 50
 0%   10   20   30   40   50   60   70   80   90   100%
 [----|----|----|----|----|----|----|----|----|----|
 **************************************************|
-08:52:20 Writing NN index file to temp file /tmp/Rtmp9sSmqR/file3d2979441d477f
-08:52:20 Searching Annoy index using 1 thread, search_k = 3000
-08:52:21 Annoy recall = 100%
-08:52:22 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
-08:52:23 Initializing from normalized Laplacian + noise (using RSpectra)
-08:52:23 Commencing optimization for 500 epochs, with 58918 positive edges
-08:52:23 Using rng type: pcg
-08:52:25 Optimization finished
+13:32:37 Writing NN index file to temp file /tmp/Rtmppt53xs/file338b5632dbc4b
+13:32:37 Searching Annoy index using 1 thread, search_k = 3000
+13:32:37 Annoy recall = 100%
+13:32:38 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+13:32:40 Initializing from normalized Laplacian + noise (using RSpectra)
+13:32:40 Commencing optimization for 500 epochs, with 58918 positive edges
+13:32:40 Using rng type: pcg
+13:32:42 Optimization finished
 \end{verbatim}
 
 \begin{Shaded}
@@ -1691,21 +1684,21 @@ This message will be shown once per session
 \end{Shaded}
 
 \begin{verbatim}
-08:52:26 UMAP embedding parameters a = 0.9922 b = 1.112
-08:52:26 Read 1456 rows and found 10 numeric columns
-08:52:26 Using Annoy for neighbor search, n_neighbors = 30
-08:52:26 Building Annoy index with metric = cosine, n_trees = 50
+13:32:42 UMAP embedding parameters a = 0.9922 b = 1.112
+13:32:42 Read 1456 rows and found 10 numeric columns
+13:32:42 Using Annoy for neighbor search, n_neighbors = 30
+13:32:42 Building Annoy index with metric = cosine, n_trees = 50
 0%   10   20   30   40   50   60   70   80   90   100%
 [----|----|----|----|----|----|----|----|----|----|
 **************************************************|
-08:52:26 Writing NN index file to temp file /tmp/Rtmp9sSmqR/file3d297916163893
-08:52:26 Searching Annoy index using 1 thread, search_k = 3000
-08:52:26 Annoy recall = 100%
-08:52:27 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
-08:52:28 Initializing from normalized Laplacian + noise (using RSpectra)
-08:52:28 Commencing optimization for 500 epochs, with 57540 positive edges
-08:52:28 Using rng type: pcg
-08:52:31 Optimization finished
+13:32:42 Writing NN index file to temp file /tmp/Rtmppt53xs/file338b563693661
+13:32:42 Searching Annoy index using 1 thread, search_k = 3000
+13:32:43 Annoy recall = 100%
+13:32:43 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+13:32:45 Initializing from normalized Laplacian + noise (using RSpectra)
+13:32:45 Commencing optimization for 500 epochs, with 57540 positive edges
+13:32:45 Using rng type: pcg
+13:32:48 Optimization finished
 \end{verbatim}
 
 \begin{Shaded}
@@ -1715,21 +1708,21 @@ This message will be shown once per session
 \end{Shaded}
 
 \begin{verbatim}
-08:52:31 UMAP embedding parameters a = 0.9922 b = 1.112
-08:52:31 Read 1456 rows and found 10 numeric columns
-08:52:31 Using Annoy for neighbor search, n_neighbors = 30
-08:52:31 Building Annoy index with metric = cosine, n_trees = 50
+13:32:48 UMAP embedding parameters a = 0.9922 b = 1.112
+13:32:48 Read 1456 rows and found 10 numeric columns
+13:32:48 Using Annoy for neighbor search, n_neighbors = 30
+13:32:48 Building Annoy index with metric = cosine, n_trees = 50
 0%   10   20   30   40   50   60   70   80   90   100%
 [----|----|----|----|----|----|----|----|----|----|
 **************************************************|
-08:52:31 Writing NN index file to temp file /tmp/Rtmp9sSmqR/file3d29793744886a
-08:52:31 Searching Annoy index using 1 thread, search_k = 3000
-08:52:31 Annoy recall = 100%
-08:52:32 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
-08:52:34 Initializing from normalized Laplacian + noise (using RSpectra)
-08:52:34 Commencing optimization for 500 epochs, with 57330 positive edges
-08:52:34 Using rng type: pcg
-08:52:36 Optimization finished
+13:32:48 Writing NN index file to temp file /tmp/Rtmppt53xs/file338b5649df394d
+13:32:48 Searching Annoy index using 1 thread, search_k = 3000
+13:32:48 Annoy recall = 100%
+13:32:49 Commencing smooth kNN distance calibration using 1 thread with target n_neighbors = 30
+13:32:51 Initializing from normalized Laplacian + noise (using RSpectra)
+13:32:51 Commencing optimization for 500 epochs, with 57330 positive edges
+13:32:51 Using rng type: pcg
+13:32:53 Optimization finished
 \end{verbatim}
 
 \begin{Shaded}
